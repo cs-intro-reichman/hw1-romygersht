@@ -5,11 +5,7 @@ public class NumWords {
 
 	int h = num/100; // spliting to get only the value of the handreds
 	int t = num/10; t = t - h*10; // spliting to get only the value of the hundreds and tens, then subtract the hundreds
-	int o = num; // creating an integer for the ones
-	double d = Double.valueOf(o); // switching it to double
-	d = d/10; d = d - h*10; d = d*10; d = d-t*10; // doing the same as i did to t, but now in double so that the number after the decimal point wiil stay. than, multiplied it in ten, and subtract the tens.
-
-	System.out.println(+h+" hundreds, "+t+" tens, and "+(int) d+" ones.");
-
+    int o = num - h*100; o = o - t*10; // subtract from the number the hundreds digit*100, and then the tens digit*10
+	System.out.println(+h+" hundreds, "+t+" tens, and "+o+" ones.");
 	}
 }
