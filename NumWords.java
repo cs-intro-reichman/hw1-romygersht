@@ -9,7 +9,7 @@ public class NumWords {
 	double d = Double.valueOf(o); // switching it to double
 	d = d/10; d = d - h*10; d = d*10; d = d-t*10; // doing the same as i did to t, but now in double so that the number after the decimal point wiil stay. than, multiplied it in ten, and subtract the tens.
 
-	System.out.println(+h+" hundreds, "+t+" tens, and "+(int) d+" ones");
+	System.out.println(+h+" hundreds, "+t+" tens, and "+(int) d+" ones.");
 
 	}
 }

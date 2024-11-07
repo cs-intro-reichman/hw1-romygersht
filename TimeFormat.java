@@ -22,13 +22,13 @@ public class TimeFormat {
 				// printing 0 before the minutes that less them 10 (single digit)
 				System.out.print(hours+":"); 
 				System.out.print("0"+minutes);
-				System.out.println(" am");
+				System.out.println(" AM");
 			}
 			if (minutes>=10) {
 				// printing without adding 0
             System.out.print(hours+":"); 
 			System.out.print(minutes);
-			System.out.println(" am");
+			System.out.println(" AM");
 			}
 		}
 
@@ -38,12 +38,12 @@ public class TimeFormat {
 			if (minutes<10 || minutes==00) {
 				System.out.print(hours+":"); 
 				System.out.print("0"+minutes);
-				System.out.println(" pm");
+				System.out.println(" PM");
 			}
 			if (minutes>=10) {
 		    System.out.print(hours+":");
 		    System.out.print(minutes);
-		    System.out.println(" pm");
+		    System.out.println(" PM");
 			}
 		}
         
@@ -54,12 +54,12 @@ public class TimeFormat {
 			if (minutes<10 || minutes==00) {
 				System.out.print(hours+":"); 
 				System.out.print("0"+minutes);
-				System.out.println(" pm");
+				System.out.println(" PM");
 			}
 			if (minutes>=10) {
 			System.out.print(hours+":");
 		    System.out.print(minutes);
-		    System.out.println(" pm");
+		    System.out.println(" PM");
 			}
 		}
 	}
