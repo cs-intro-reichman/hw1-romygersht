@@ -10,7 +10,7 @@ public class FVCalc {
 		double rateF = 1+rate/100; //calculating for the furmula + making the rate as a precentage
 		double futureValue = currenValue * Math.pow (rateF,nn); // calculating the future value according to the formula using the math.pow
 		
-		System.out.println ("After 2 years, a $"+currenValue+" saved at "+rate+"% will yield $"+(int) futureValue);
+		System.out.println ("After "+n+" years, a $"+currenValue+" saved at "+rate+"% will yield $"+(int) futureValue);
 
 	}
 }
